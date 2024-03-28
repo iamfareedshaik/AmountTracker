@@ -1,5 +1,9 @@
-import RootNavigator from './routes';
-
+import RootNavigator from "./routes/routes";
+import { TokenProvider } from "./app/context/TokenContext";
 export default function App() {
-  return <RootNavigator />;
+  return (
+    <TokenProvider>
+        <RootNavigator />
+    </TokenProvider>
+  );
 }
