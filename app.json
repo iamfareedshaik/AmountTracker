@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "ExpenseBag",
+    "slug": "ExpenseBag",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/basket.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/basket.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/basket.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.shaikfareed366.ExpenseBag"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/basket.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b003425f-a418-42a2-adb1-cb8b9e72265d"
+      }
+    }
+  }
+}
